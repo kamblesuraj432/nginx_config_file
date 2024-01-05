@@ -1,0 +1,5 @@
+cd /etc/php-fpm.d
+nano www.conf
+   change inside file:
+      1) listen = (9000)
+      2) listen.allowed_clients = 127.0.0.1,(Nginx-server-private-ip)
